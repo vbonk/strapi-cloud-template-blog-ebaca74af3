@@ -1,241 +1,263 @@
 {
   "global": {
-    "siteName": "Strapi Blog",
+    "siteName": "Destination Decks",
     "defaultSeo": {
-      "metaTitle": "Page",
-      "metaDescription": "A blog made with Strapi",
+      "metaTitle": "Destination Decks - Premium Deck Construction",
+      "metaDescription": "Custom deck design and construction services for residential and commercial properties",
       "shareImage": null
     },
-    "siteDescription": "A Blog made with Strapi",
+    "siteDescription": "Your premier provider of custom deck solutions",
     "favicon": null
   },
-  "about": {
-    "title": "About the strapi blog",
-    "blocks": [
-      {
-        "__component": "shared.quote",
-        "title": "Thelonius Monk",
-        "body": "You've got to dig it to dig it, you dig?"
+  "hero": {
+    "title": "Custom Decks Built To Last",
+    "subtitle": "Transform Your Outdoor Space",
+    "description": "At Destination Decks, we design and build premium custom decks that combine beauty, functionality, and durability. Our experienced team turns your outdoor vision into reality.",
+    "backgroundImage": {
+      "name": "hero-background.jpg",
+      "alternativeText": "Beautiful custom deck with outdoor furniture",
+      "caption": "Custom deck installation by Destination Decks",
+      "width": 1920,
+      "height": 1080,
+      "formats": {
+        "thumbnail": { "url": "/uploads/thumbnail_hero_background.jpg" },
+        "large": { "url": "/uploads/large_hero_background.jpg" },
+        "medium": { "url": "/uploads/medium_hero_background.jpg" },
+        "small": { "url": "/uploads/small_hero_background.jpg" }
       },
-      {
-        "__component": "shared.rich-text",
-        "body": "## Dedit imago conspicuus cum capillis totidem inhibere\n\nLorem markdownum **rerum**, est limine: columbas: ab infelix hostem arbore nudis\ncrudelis. Videtur reliquit ambo ferrum dote sub amne fatis **illuc**, in magis,\nnec."
-      },
-      {
-        "__component": "shared.media",
-        "file": "coffee-art.jpg"
-      }
-    ]
+      "hash": "hero_background_1234",
+      "ext": ".jpg",
+      "mime": "image/jpeg",
+      "size": 128.74,
+      "url": "/uploads/hero_background.jpg",
+      "previewUrl": null,
+      "provider": "local"
+    }
   },
-  "categories": [
+  "business_info": {
+    "name": "Destination Decks",
+    "phone": "(555) 555-5555",
+    "email": "info@destinationdecks.com",
+    "address": "1234 Deck Avenue, Suite 100",
+    "city": "Woodland Hills",
+    "state": "CA",
+    "zip": "91364",
+    "hours_weekday": "Mon-Fri: 8am - 5pm",
+    "hours_weekend": "Sat: 9am - 2pm"
+  },
+  "services": [
     {
-      "name": "news",
-      "slug": "news"
+      "title": "Custom Deck Design",
+      "description": "Our professional designers work with you to create the perfect deck for your space, style, and budget. We provide 3D renderings so you can visualize your new deck before construction begins.",
+      "icon": "Ruler",
+      "link": "/services/custom-deck-design"
     },
     {
-      "name": "tech",
-      "slug": "tech"
+      "title": "Deck Construction",
+      "description": "Our experienced builders use premium materials and proven techniques to construct durable, beautiful decks that will last for decades. We handle everything from permits to final inspection.",
+      "icon": "Hammer",
+      "link": "/services/deck-construction"
     },
     {
-      "name": "food",
-      "slug": "food"
+      "title": "Deck Restoration",
+      "description": "Breathe new life into your existing deck with our comprehensive restoration services. We repair structural issues, replace damaged boards, and refinish surfaces to make your deck look like new.",
+      "icon": "Paintbrush",
+      "link": "/services/deck-restoration"
     },
     {
-      "name": "nature",
-      "slug": "nature"
+      "title": "Deck Maintenance",
+      "description": "Protect your investment with our regular maintenance services. We clean, seal, and inspect your deck to keep it looking great and prevent costly repairs.",
+      "icon": "Wrench",
+      "link": "/services/deck-maintenance"
     },
     {
-      "name": "story",
-      "slug": "story"
+      "title": "Free Consultation",
+      "description": "Not sure what you need? Schedule a free consultation with one of our deck specialists. We'll assess your space, discuss your goals, and provide expert recommendations.",
+      "icon": "Calendar",
+      "link": "/services/consultation"
     }
   ],
-  "authors": [
+  "projects": [
     {
-      "name": "David Doe",
-      "email": "daviddoe@strapi.io",
-      "avatar": "daviddoe@strapi.io.jpg"
+      "title": "Woodland Hills Backyard Oasis",
+      "description": "This expansive composite deck features multiple levels, built-in seating, and integrated lighting to create the perfect outdoor entertainment space.",
+      "category": "featured",
+      "image": {
+        "name": "woodland-hills-deck.jpg",
+        "alternativeText": "Multi-level composite deck with built-in seating",
+        "caption": "Custom deck in Woodland Hills",
+        "width": 1200,
+        "height": 800,
+        "formats": {
+          "thumbnail": { "url": "/uploads/thumbnail_woodland_hills_deck.jpg" },
+          "large": { "url": "/uploads/large_woodland_hills_deck.jpg" },
+          "medium": { "url": "/uploads/medium_woodland_hills_deck.jpg" },
+          "small": { "url": "/uploads/small_woodland_hills_deck.jpg" }
+        },
+        "hash": "woodland_hills_deck_5678",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 96.35,
+        "url": "/uploads/woodland_hills_deck.jpg",
+        "previewUrl": null,
+        "provider": "local"
+      }
     },
     {
-      "name": "Sarah Baker",
-      "email": "sarahbaker@strapi.io",
-      "avatar": "sarahbaker@strapi.io.jpg"
+      "title": "Sherman Oaks Pool Deck",
+      "description": "This slip-resistant pool deck was designed to complement the contemporary architecture of the home while providing a safe, beautiful space for poolside relaxation.",
+      "category": "before-after",
+      "image": {
+        "name": "pool-deck.jpg",
+        "alternativeText": "Modern pool deck with lounge chairs",
+        "caption": "Pool deck installation in Sherman Oaks",
+        "width": 1200,
+        "height": 800,
+        "formats": {
+          "thumbnail": { "url": "/uploads/thumbnail_pool_deck.jpg" },
+          "large": { "url": "/uploads/large_pool_deck.jpg" },
+          "medium": { "url": "/uploads/medium_pool_deck.jpg" },
+          "small": { "url": "/uploads/small_pool_deck.jpg" }
+        },
+        "hash": "pool_deck_9012",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 85.21,
+        "url": "/uploads/pool_deck.jpg",
+        "previewUrl": null,
+        "provider": "local"
+      }
+    },
+    {
+      "title": "Malibu Beachfront Deck",
+      "description": "This premium hardwood deck was custom-designed to withstand the harsh coastal environment while providing a stunning outdoor living space with panoramic ocean views.",
+      "category": "recent",
+      "image": {
+        "name": "malibu-deck.jpg",
+        "alternativeText": "Hardwood deck with ocean view",
+        "caption": "Beachfront deck in Malibu",
+        "width": 1200,
+        "height": 800,
+        "formats": {
+          "thumbnail": { "url": "/uploads/thumbnail_malibu_deck.jpg" },
+          "large": { "url": "/uploads/large_malibu_deck.jpg" },
+          "medium": { "url": "/uploads/medium_malibu_deck.jpg" },
+          "small": { "url": "/uploads/small_malibu_deck.jpg" }
+        },
+        "hash": "malibu_deck_3456",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 102.47,
+        "url": "/uploads/malibu_deck.jpg",
+        "previewUrl": null,
+        "provider": "local"
+      }
     }
   ],
-  "articles": [
+  "testimonials": [
     {
-      "title": "The internet's Own boy",
-      "slug": "the-internet-s-own-boy",
-      "category": {
-        "id": 5
-      },
-      "author": {
-        "id": 1
-      },
-      "description": "Follow the story of Aaron Swartz, the boy who could change the world",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+      "name": "Jennifer S.",
+      "location": "Woodland Hills, CA",
+      "project": "Custom Composite Deck",
+      "rating": 5,
+      "text": "Destination Decks exceeded our expectations in every way. From the initial design consultation to the final walkthrough, their team was professional, communicative, and detail-oriented. Our new deck has become our favorite part of our home!",
+      "image": {
+        "name": "jennifer-s.jpg",
+        "alternativeText": "Jennifer S.",
+        "caption": "Satisfied customer",
+        "width": 400,
+        "height": 400,
+        "formats": {
+          "thumbnail": { "url": "/uploads/thumbnail_jennifer_s.jpg" }
         },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
+        "hash": "jennifer_s_7890",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 28.54,
+        "url": "/uploads/jennifer_s.jpg",
+        "previewUrl": null,
+        "provider": "local"
+      }
     },
     {
-      "title": "This shrimp is awesome",
-      "slug": "this-shrimp-is-awesome",
-      "category": {
-        "id": 4
-      },
-      "author": {
-        "id": 1
-      },
-      "description": "Mantis shrimps, or stomatopods, are marine crustaceans of the order Stomatopoda.",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+      "name": "Michael T.",
+      "location": "Sherman Oaks, CA",
+      "project": "Pool Deck Renovation",
+      "rating": 5,
+      "text": "We hired Destination Decks to replace our old, worn-out pool deck, and we couldn't be happier with the results. The new deck is beautiful, durable, and has completely transformed our backyard. The team was a pleasure to work with from start to finish.",
+      "image": {
+        "name": "michael-t.jpg",
+        "alternativeText": "Michael T.",
+        "caption": "Satisfied customer",
+        "width": 400,
+        "height": 400,
+        "formats": {
+          "thumbnail": { "url": "/uploads/thumbnail_michael_t.jpg" }
         },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
+        "hash": "michael_t_1234",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 30.12,
+        "url": "/uploads/michael_t.jpg",
+        "previewUrl": null,
+        "provider": "local"
+      }
     },
     {
-      "title": "A bug is becoming a meme on the internet",
-      "slug": "a-bug-is-becoming-a-meme-on-the-internet",
-      "category": {
-        "id": 2
-      },
-      "author": {
-        "id": 2
-      },
-      "description": "How a bug on MySQL is becoming a meme on the internet",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
+      "name": "Sarah L.",
+      "location": "Encino, CA",
+      "project": "Deck Restoration",
+      "rating": 4,
+      "text": "Destination Decks did an amazing job restoring our 15-year-old deck. It looks brand new! They were able to repair several structural issues and replace damaged boards without having to rebuild the entire deck, which saved us a lot of money.",
+      "image": {
+        "name": "sarah-l.jpg",
+        "alternativeText": "Sarah L.",
+        "caption": "Satisfied customer",
+        "width": 400,
+        "height": 400,
+        "formats": {
+          "thumbnail": { "url": "/uploads/thumbnail_sarah_l.jpg" }
         },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
+        "hash": "sarah_l_5678",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 29.75,
+        "url": "/uploads/sarah_l.jpg",
+        "previewUrl": null,
+        "provider": "local"
+      }
+    }
+  ],
+  "social_media": [
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/destinationdecks",
+      "username": "destinationdecks",
+      "icon_name": "Facebook"
     },
     {
-      "title": "Beautiful picture",
-      "slug": "beautiful-picture",
-      "category": {
-        "id": 4
-      },
-      "author": {
-        "id": 2
-      },
-      "description": "Description of a beautiful picture",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
-        },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
+      "platform": "Instagram",
+      "url": "https://instagram.com/destination_decks",
+      "username": "destination_decks",
+      "icon_name": "Instagram"
     },
     {
-      "title": "What's inside a Black Hole",
-      "slug": "what-s-inside-a-black-hole",
-      "category": {
-        "id": 1
-      },
-      "author": {
-        "id": 2
-      },
-      "description": "Maybe the answer is in this article, or not...",
-      "cover": null,
-      "blocks": [
-        {
-          "__component": "shared.rich-text",
-          "body": "## Probant \n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. \n\n## Abit sua\n\nse Lorem markdownum negat. Argo *saxa* videnda cornuaque hunc qui tanta spes teneas! Obliquis est dicenti est salutat ille tamen iuvenum nostrae dolore. - Colores nocituraque comitata eripiunt - Addit quodcunque solum cui et dextram illis - Nulli meus nec extemplo ille ferebat pressit Se blandita fulvae vox gravem Pittheus cesserunt sanguine herbis tu comitum tenuit. Sui in ruunt; Doridaque maculosae fuissem! Et loqui. "
-        },
-        {
-          "__component": "shared.quote",
-          "title": "Thelonius Monk",
-          "body": "You've got to dig it to dig it, you dig?"
-        },
-        {
-          "__component": "shared.media",
-          "file": "coffee-art.jpg"
-        },
-        {
-          "__component": "shared.rich-text",
-          "body": "## Spatiantia astra \n\nFoeda, medio silva *errandum*: onus formam munere. Mutata bibulis est auxiliare arces etiamnunc verbis virgineo Priamidas illa Thescelus, nam fit locis lucis auras. Exitus hospes gratulor ut pondere [speslimite](http://www.curas.io/figuram); quid habent, Avernales faciente de. Pervenit Ino sonabile supplex cognoscenti vires, Bacchumque errat miserarum venandi dignabere dedisti. Discrimina iuncosaque virgaque tot sine superest [fissus](http://quos.org/sitet.aspx). Non color esset potest non sumit, sed vix arserat. Nisi immo silva tantum pectusque quos pennis quisquam artus!"
-        },
-        {
-          "__component": "shared.slider",
-          "files": ["coffee-art.jpg", "coffee-beans.jpg"]
-        }
-      ]
+      "platform": "Twitter",
+      "url": "https://twitter.com/DestinationDeck",
+      "username": "DestinationDeck",
+      "icon_name": "Twitter"
+    },
+    {
+      "platform": "Pinterest",
+      "url": "https://pinterest.com/destinationdecks",
+      "username": "destinationdecks",
+      "icon_name": "Pinterest"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://youtube.com/c/DestinationDecks",
+      "username": "DestinationDecks",
+      "icon_name": "Youtube"
     }
   ]
 }
