@@ -2,7 +2,7 @@
 
 /**
  * Bootstrap script for Destination Decks Strapi CMS
- * Place this file at ./src/bootstrap.js in your Strapi project
+ * Place this file at ./src/bootstrap.js in your Strapi project. 
  */
 
 module.exports = async ({ strapi }) => {
